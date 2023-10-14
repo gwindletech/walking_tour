@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.main-hero {
+    background-image: url("assets/images/background_crime2.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.with-fading-border {
+    position: relative;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: black; /* Set your container background color */
+}
+
+.with-fading-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px; /* Adjust the height of the fading border */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), black); /* Adjust the opacity as needed */
+}
+
+h1 {
+    color: rgb(161, 161, 158);
+    font-family: 'EB Garamond', serif;
+}
+
+h2 {
+    color: rgb(161, 161, 158);
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    color: rgb(153, 151, 151);
+    font-family: 'EB Garamond', serif;
+}
+
+a.icon-btn {
+    color:black;
+    font-weight: bold;
+    border-color: rgb(97, 47, 24);
+    border-width: 2px;
+    background-color: white;
+
+}
